@@ -1,0 +1,181 @@
+/* Logo darkmode invert */
+
+.app-name-link {
+  filter: var(--custom_logo_invert);
+}
+
+/* Make border more visible */
+
+.markdown-section td,
+.markdown-section th {
+  border: 1px solid var(--borderColor);
+}
+
+/* better sidebar arrow viability */
+
+.sidebar-nav ul:not(.app-sub-sidebar) > li:not(.file)::before {
+  top: 13px;
+  border-right: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  transition: transform 0.2s;
+}
+
+/* start animation */
+
+#app {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+#app:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid black;
+  border-color: black transparent black transparent;
+  animation: app 1.2s linear infinite;
+}
+@keyframes app {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* remove border from alerts and set background color to what codeblocks use */
+
+.alert {
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  filter: drop-shadow(0 0 0.5rem var(--custom_dropshadow_color));
+  background-color: var(--codeBackgroundColor) !important;
+}
+
+/*
+Sidebar: 
+  remove white line
+  add drop shadow
+  make it darker
+  move Scrollbar to the left
+  hide drop shadow when closed
+*/
+
+.sidebar {
+  scrollbar-width: thin;
+  border-color: transparent;
+  background-color: var(--codeBackgroundColor);
+  direction: rtl;
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+}
+
+.sidebar-nav,
+.search,
+nav {
+  direction: ltr;
+}
+
+.close main .sidebar {
+  filter: unset;
+}
+
+/* 
+Codeblock:
+Image:
+  add rounded corners
+  add drop shadow
+*/
+
+pre,
+.medium-zoom-image {
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  border-radius: 0.25rem;
+}
+
+/* Navbar BG color fix */
+
+.app-nav li ul {
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  background-color: var(--codeBackgroundColor);
+  border-color: transparent;
+}
+
+/* Hide sidebar pin to fix mobile sidebar:  */
+
+.sidebar-pin {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0;
+}
+
+/* Fix mobile theme switch overlap */
+
+@media screen and (max-width: 768px) {
+  #docsify-darklight-theme {
+    position: absolute;
+    left: -10px;
+    top: -5px !important;
+  }
+}
+
+/* Table drop shadow */
+
+/* table {
+  filter: drop-shadow(0 0 0.75rem var(--custom_dropshadow_color));
+  border-radius: 6px;
+}
+
+td, th {
+  border-left:solid black 1px;
+  border-top:solid black 1px;
+}
+
+th {
+  background-color: blue;
+  border-top: none;
+}
+
+td:first-child, th:first-child {
+   border-left: none;
+} */
+
+/*
+Accordion fixes
+  Colors
+  Spacing between accordions
+*/
+
+.accordion {
+  background-color: var(--codeBackgroundColor);
+  color: var(--codeTextColor);
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  border-radius: 0.25rem;
+}
+
+.accordion:hover, .accordion.opened {
+  background-color: var(--borderColor);
+}
+
+.accordion.opened {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel.opened {
+  height: 100%;
+}
+
+.panel {
+  height: 0px;
+  border: 0px;
+  background-color: var(--codeBackgroundColor);
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  border-radius: 0.25rem;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
