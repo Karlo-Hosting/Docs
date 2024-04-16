@@ -1,5 +1,4 @@
-FROM node:latest
-LABEL description="Karlo-Hosting Internal Documentation."
+FROM node:21-alpine
 WORKDIR /usr/src/app
 COPY . .
 RUN npm install -g docsify-cli@latest
