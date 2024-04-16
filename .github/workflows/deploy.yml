@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: DE-HY-INTERNAL-01
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Update 3rd party docker containers
+        run: docker compose pull
+
+      - name: Build app
+        run: docker compose build
+
+      - name: Spin up containers
+        run: docker compose up -d
