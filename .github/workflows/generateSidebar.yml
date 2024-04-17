@@ -1,0 +1,35 @@
+name: generateSidebar
+
+# Disabled: Generated sidebar is a little strange
+# on:
+#   push:
+#     branches: [ main ]
+
+jobs:
+  generateAndAdjust:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out the repository
+        uses: actions/checkout@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install NPM
+        run: npm install -g npm
+      
+      - name: Install docsify-cli
+        run: npm install -g docsify-cli
+      
+      - name: Generate Sidebar
+        run: docsify generate .
+
+      # TODO: remove entries and copy template below
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "bot: Add auto minified files"

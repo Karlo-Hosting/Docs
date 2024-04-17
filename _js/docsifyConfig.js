@@ -1,16 +1,16 @@
 window.$docsify = {
     catchPluginErrors: true,
-    name: "Karloline-Hosting Infrastructure Docs",
-    repo: "https://github.com/Karlo-Hosting/internal-docs/",
-    // routerMode: "histroy",
+    name: "Karloline-Hosting Documentation",
+    repo: "https://github.com/Karlo-Hosting/Docs/",
+    routerMode: "histroy",
     auto2top: true,
     loadSidebar: true,
-    loadNavbar: false,
+    loadNavbar: true,
     mergeNavbar: true,
-    logo: "/_media/logo_dark.png", // gets converted with css for dark mode
+    logo: "./_media/logo.png", // gets converted with css for dark mode
     formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
     // TODO: Enable when ToC is working
-    // subMaxLevel: 1,
+    subMaxLevel: 4,
     // toc: {
     //     tocMaxLevel: 5,
     //     target: 'h2, h3, h4, h5, h6',
@@ -34,7 +34,7 @@ window.$docsify = {
         // Theme colors chose according to Resonite color palette
         dark: {
             custom_dropshadow_color: 'var(--codeBackgroundColor)',
-            custom_logo_invert: 'invert()',
+            custom_logo_invert: '',
             'theme-color': 'var(--accent)',
             accent: '#ba64f2',
             toogleBackground: '#ffffff',
@@ -47,7 +47,7 @@ window.$docsify = {
         },
         light: {
             custom_dropshadow_color: 'var(--borderColor)',
-            custom_logo_invert: '',
+            custom_logo_invert: 'invert()',
             'theme-color': 'var(--accent)',
             accent: '#e69e50',
             toogleBackground: '#091a28',

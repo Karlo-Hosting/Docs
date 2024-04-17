@@ -3,13 +3,9 @@
 function footer(hook, vm) {
   const footer = [
     '<footer style="text-align: center; padding-top: 40px;">',
-    // 'Unoffical Resonite Wiki &copy; 2024',
-    // '<br/>',
-    '"Resonite" is a copyright of Yellow Dog Man Studios s.r.o.',
+    'Unoffical Resonite Wiki &copy; 2024',
     "<br/>",
-    "We are not affiliated with Yellow Dog Man Studios.",
-    "<br/>",
-    'Made with ❤ by <a href="https://github.com/FlipperLP" target="_blank">@Phil</a>, <a href="https://github.com/Banane9" target="_blank">@Banane9</a> and <a href="https://github.com/FlippedCodes/Unofficial-Resonite-Docs/graphs/contributors" target="_blank">Helpers</a>  &copy; 2024',
+    'Made with ❤ by <a href="https://github.com/Karlo-Hosting" target="_blank">@Karlo-Hosting</a> and <a href="https://github.com/Karlo-Hosting/Docs/graphs/contributors" target="_blank">Helpers</a>',
     "</footer>",
   ].join("");
 
@@ -25,7 +21,7 @@ function footer(hook, vm) {
         .replace("@master", "/blob/master");
     } else {
       url =
-        "https://github.com/FlippedCodes/Unofficial-Resonite-Docs/blob/main/" +
+        "https://github.com/Karlo-Hosting/Docs/blob/main/" +
         vm.route.file;
     }
     const editText = `\n\<div style="text-align: right"><a href="${url}" target="_blank">:memo: Edit on GitHub</a></div>`;

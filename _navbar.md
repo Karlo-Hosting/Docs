@@ -1,4 +1,4 @@
-- :link: Official Links
-  - [Discord](https://discord.gg/resonite)
-  - [GitHub Issues](https://github.com/Yellow-Dog-Man/Resonite-Issues/issues)
-<!-- TODO: add tools and reenable in config -->
+- :link: Links
+  - [Website](https://karlo-hosting.com/)
+  - [Discord](https://discord.gg/HRZCYGSrta)
+  - [Contribute to Docs](https://github.com/Karlo-Hosting/Docs)

@@ -1,7 +1,0 @@
-services:
-  app:
-    build:
-      context: ./
-    restart: always
-    ports:
-      - "3100:3000"
