@@ -34,7 +34,7 @@ window.$docsify = {
         // Theme colors chose according to Resonite color palette
         dark: {
             custom_dropshadow_color: 'var(--codeBackgroundColor)',
-            custom_logo_invert: '',
+            // custom_logo_invert: '',
             'theme-color': 'var(--accent)',
             accent: '#ba64f2',
             toogleBackground: '#ffffff',
@@ -47,7 +47,7 @@ window.$docsify = {
         },
         light: {
             custom_dropshadow_color: 'var(--borderColor)',
-            custom_logo_invert: 'invert()',
+            // custom_logo_invert: '',
             'theme-color': 'var(--accent)',
             accent: '#e69e50',
             toogleBackground: '#091a28',

@@ -1,7 +1,8 @@
 /* Logo darkmode invert */
 
 .app-name-link {
-  filter: var(--custom_logo_invert);
+  /* filter: contrast(0) sepia(100%) hue-rotate(180deg) saturate(1000%) var(--custom_logo_invert) ; */
+  filter: contrast(0) sepia(100%) hue-rotate(180deg) saturate(1000%) brightness(80%) ;
 }
 
 /* Make border more visible */
