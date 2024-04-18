@@ -22,6 +22,7 @@
 }
 
 /* start animation */
+/* color vars not ready upon loading */
 
 #app {
   width: 80px;
@@ -45,6 +46,18 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: #2b2f35;
+    /* fixes black flash of text upon loading */
+    color: white;
+  }
+  #app:after {
+    border: 6px solid white;
+    border-color: white transparent white transparent;
   }
 }
 
