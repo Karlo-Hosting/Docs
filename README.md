@@ -14,9 +14,9 @@
 
 ### 🛟 Troubleshooting
 
-* [The Panel Website loaded but is completly white](getting-started/troubleshooting/the-panel-website-loaded-but-is-completly-white.md)
-* [Wrong name for Startup file](getting-started/troubleshooting/wrong-name-for-startup-file.md)
-* [Server crashing: entrypoint.sh](getting-started/troubleshooting/server-crashing-entrypoint.sh.md)
+* [The Panel Website loaded but is completly white](troubleshooting/the-panel-website-loaded-but-is-completly-white.md)
+* [Wrong name for Startup file](troubleshooting/wrong-name-for-startup-file.md)
+* [Server crashing: entrypoint.sh](troubleshooting/server-crashing-entrypoint.sh.md)
 
 ### ⌨️ How to bot
 
