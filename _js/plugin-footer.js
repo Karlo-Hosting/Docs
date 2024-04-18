@@ -24,7 +24,7 @@ function footer(hook, vm) {
         "https://github.com/Karlo-Hosting/Docs/blob/main/" +
         vm.route.file;
     }
-    const editText = `\n\<div style="text-align: right"><a href="${url}" target="_blank">:memo: Edit on GitHub</a></div>`;
+    const editText = `\n<div style="text-align: right"><a href="${url}" target="_blank">:memo: Edit on GitHub</a></div>`;
 
     return html + editText + footer;
   });
