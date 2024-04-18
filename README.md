@@ -4,8 +4,6 @@
 
 ## Table of contents
 
-* [Karlo-Hosting](README.md)
-
 ### 📌 Getting started
 
 * [Setting up a Server](getting-started/setting-up-a-server.md)
@@ -13,12 +11,14 @@
 * [How to change the Version of your Server's software.](getting-started/how-to-change-the-version-of-your-servers-software..md)
 * [Install additional Packages / Modules](getting-started/install-additional-packages-modules.md)
 * [How to use SFTP](getting-started/how-to-use-sftp.md)
-* [Troubleshooting](getting-started/troubleshooting/README.md)
-  * [The Panel Website loaded but is completly white](getting-started/troubleshooting/the-panel-website-loaded-but-is-completly-white.md)
-  * [Wrong name for Startup file](getting-started/troubleshooting/wrong-name-for-startup-file.md)
-  * [Server crashing: entrypoint.sh](getting-started/troubleshooting/server-crashing-entrypoint.sh.md)
 
-### ⌨️ Programm your bot
+### 🛟 Troubleshooting
+
+* [The Panel Website loaded but is completly white](getting-started/troubleshooting/the-panel-website-loaded-but-is-completly-white.md)
+* [Wrong name for Startup file](getting-started/troubleshooting/wrong-name-for-startup-file.md)
+* [Server crashing: entrypoint.sh](getting-started/troubleshooting/server-crashing-entrypoint.sh.md)
+
+### ⌨️ How to bot
 
 * [Java](programm-your-bot/java.md)
 * [JavaScript](programm-your-bot/javascript.md)
