@@ -2,7 +2,8 @@
 // footer https://github.com/boopathikumar018/docsify-darklight-theme/blob/master/docs/index.html        
 function logoLinkPlugin(hook, vm) {
   hook.doneEach(() => {
-    document.querySelector('a.app-name-link').href='/#/';
+    const element = document.querySelector('a.app-name-link');
+    element.href = `${element.href}#/`;
   });
 }
 // Add plugin to docsify's plugin array
