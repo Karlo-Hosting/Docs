@@ -49,17 +49,18 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* FIXME: doesnt work on white theme */
+/* @media (prefers-color-scheme: dark) {
   :root {
-    background: #2b2f35;
-    /* fixes black flash of text upon loading */
+    background: #1d232a;
+    // fixes black flash of text upon loading
     color: white;
   }
   #app:after {
     border: 6px solid white;
     border-color: white transparent white transparent;
   }
-}
+} */
 
 /* remove border from alerts and set background color to what codeblocks use */
 
