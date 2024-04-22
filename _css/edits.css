@@ -2,7 +2,8 @@
 
 .app-name-link {
   /* filter: contrast(0) sepia(100%) hue-rotate(180deg) saturate(1000%) var(--custom_logo_invert) ; */
-  filter: contrast(0) sepia(100%) hue-rotate(180deg) saturate(1000%) brightness(80%) ;
+  filter: contrast(0) sepia(100%) hue-rotate(180deg) saturate(1000%)
+    brightness(80%);
 }
 
 /* Make border more visible */
@@ -68,8 +69,8 @@
   border-top: none !important;
   border-right: none !important;
   border-bottom: none !important;
-  filter: drop-shadow(0 0 0.5rem var(--custom_dropshadow_color));
-  background-color: var(--codeBackgroundColor) !important;
+  filter: drop-shadow(0 0 0.5rem var(--custom_dropshadow));
+  background-color: var(--custom_sidebar) !important;
 }
 
 /*
@@ -84,9 +85,9 @@ Sidebar:
 .sidebar {
   scrollbar-width: thin;
   border-color: transparent;
-  background-color: var(--codeBackgroundColor);
+  background-color: var(--custom_sidebar);
   direction: rtl;
-  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow));
 }
 
 .sidebar-nav,
@@ -108,15 +109,15 @@ Image:
 
 pre,
 .medium-zoom-image {
-  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow));
   border-radius: 0.25rem;
 }
 
 /* Navbar BG color fix */
 
 .app-nav li ul {
-  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
-  background-color: var(--codeBackgroundColor);
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow));
+  background-color: var(--custom_sidebar);
   border-color: transparent;
 }
 
@@ -141,7 +142,7 @@ pre,
 /* Table drop shadow */
 
 /* table {
-  filter: drop-shadow(0 0 0.75rem var(--custom_dropshadow_color));
+  filter: drop-shadow(0 0 0.75rem var(--custom_dropshadow));
   border-radius: 6px;
 }
 
@@ -173,13 +174,14 @@ Accordion fixes
 */
 
 .accordion {
-  background-color: var(--codeBackgroundColor);
+  background-color: var(--custom_sidebar);
   color: var(--codeTextColor);
-  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow));
   border-radius: 0.25rem;
 }
 
-.accordion:hover, .accordion.opened {
+.accordion:hover,
+.accordion.opened {
   background-color: var(--borderColor);
 }
 
@@ -195,8 +197,8 @@ Accordion fixes
 .panel {
   height: 0px;
   border: 0px;
-  background-color: var(--codeBackgroundColor);
-  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  background-color: var(--custom_sidebar);
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow));
   border-radius: 0.25rem;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
