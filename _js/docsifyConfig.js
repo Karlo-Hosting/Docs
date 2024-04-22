@@ -1,14 +1,14 @@
 window.$docsify = {
     catchPluginErrors: true,
-    name: "Karloline-Hosting Documentation",
-    repo: "https://github.com/Karlo-Hosting/Docs/",
-    routerMode: "histroy",
+    name: 'Karloline-Hosting Documentation',
+    repo: 'https://github.com/Karlo-Hosting/Docs/',
+    routerMode: 'histroy',
     auto2top: true,
     loadSidebar: true,
     loadNavbar: true,
     mergeNavbar: true,
-    logo: "./_media/logo.png", // gets converted with css for dark mode
-    formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+    logo: './_media/logo.png', // gets converted with css for dark mode
+    formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
     // TODO: Enable when ToC is working
     subMaxLevel: 4,
     // toc: {
@@ -19,16 +19,16 @@ window.$docsify = {
     tabs: {
         persist: true,
         sync: true,
-        theme: "material",
+        theme: 'material',
         tabComments: true,
         tabHeadings: true,
     },
     // Search config https://github.com/docsifyjs/docsify/blob/141ac96add9892fcb345551906770c4e9b2265b0/docs/index.html#L105
     search: 'auto',
     progress: {
-        position: "top",
-        color: "var(--accent)",
-        height: "2px",
+        position: 'top',
+        color: 'var(--accent)',
+        height: '2px',
     },
     darklightTheme: {
         // Theme colors chose according to Resonite color palette
