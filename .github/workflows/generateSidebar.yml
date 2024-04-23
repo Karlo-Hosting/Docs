@@ -1,9 +1,8 @@
 name: generateSidebar
 
-# Disabled: Generated sidebar is a little strange
-# on:
-#   push:
-#     branches: [ main ]
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   generateAndAdjust:
