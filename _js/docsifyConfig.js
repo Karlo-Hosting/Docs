@@ -9,13 +9,12 @@ window.$docsify = {
     mergeNavbar: true,
     logo: './_media/logo.png', // gets converted with css for dark mode
     formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
-    // TODO: Enable when ToC is working
-    subMaxLevel: 4,
-    // toc: {
-    //     tocMaxLevel: 5,
-    //     target: 'h2, h3, h4, h5, h6',
-    //     ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
-    // },
+    // subMaxLevel: 1,
+    toc: {
+        tocMaxLevel: 3,
+        target: 'h2, h3, h4, h5, h6',
+        ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
+    },
     tabs: {
         persist: true,
         sync: true,
