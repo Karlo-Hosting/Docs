@@ -65,7 +65,7 @@ intents.message_content = True
 client = discord.Bot(intents=intents)
 # Creates the bot with the intents
 
-TOKEN = TOKEN'
+TOKEN = 'TOKEN'
 # This sets the variable TOKEN with your token
 
 
@@ -78,6 +78,7 @@ async def on_ready():
 
 @client.event
 # This calls the event listener of py-cord to listen to the on_message event and when its executed to run the code
+# This is an old method. Please use slash-commands if you can.
 async def on_message(message):
     if message.content == 'ping':
         # This is checking if the message equals  "ping"
