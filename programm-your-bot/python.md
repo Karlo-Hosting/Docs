@@ -65,7 +65,7 @@ intents.message_content = True
 client = discord.Bot(intents=intents)
 # Creates the bot with the intents
 
-TOKEN = TOKEN'
+TOKEN = 'TOKEN'
 # This sets the variable TOKEN with your token
 
 
