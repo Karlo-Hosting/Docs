@@ -8,7 +8,7 @@
   - [Server crashing entrypoint.sh](/troubleshooting/server-crashing-entrypoint.sh.md)
   - [The panel website loaded but is completly white](/troubleshooting/the-panel-website-loaded-but-is-completly-white.md)
   - [Wrong name for startup file](/troubleshooting/wrong-name-for-startup-file.md)
-- ⌨️ How to bot
+- ⌨️ Discord Bot development guides
   - [Java](/programm-your-bot/java.md)
   - [JavaScript](/programm-your-bot/javascript.md)
   - [Python](/programm-your-bot/python.md)
