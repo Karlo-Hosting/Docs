@@ -1,4 +1,4 @@
-# Karloline-Hosting Documentation
+# Karlo-Hosting Documentation
 
 [Karlo Hosting](https://karlo-hosting.com) is a free Discord bot hoster for discord bots and MySQL databases.
 
