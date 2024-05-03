@@ -92,8 +92,9 @@ async def on_message(message):
 # This calls the slash command manager of py-cord to create a new command with the name ping and description "Ping!"
 # and when the command is executed to run the code
 async def ping(ctx):
-    await ctx.respond(f"Pong!")
-    # This is responding "Pong!" to the command
+    latency = bot.latency * 1000
+    await ctx.respond(f"Latency: {latency:.2f} ms!")
+    # This is responding with the latency of the bot, to the command
 
 
 bot.run(TOKEN)
