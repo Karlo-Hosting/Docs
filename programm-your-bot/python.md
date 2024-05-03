@@ -103,4 +103,9 @@ bot.run(TOKEN)
 
 ## Final
 
-» Upload the main.py file to the Karlo-Hosting Panel
+» Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). For that you have to  be registered at [Karlo-Hosting](https://karlo-hosting.com).
+Create a file called "requirements.txt" and insert the required packages (here py-cord)
+
+» If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
+
+» If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
