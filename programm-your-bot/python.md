@@ -104,3 +104,4 @@ bot.run(TOKEN)
 ## Final
 
 » Upload the main.py file to the Karlo-Hosting Panel
+» If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
