@@ -27,7 +27,7 @@ async def echo():
 async def echo(
         ctx,
         text: Option(str, "The text you want to send"),
-        channel: Option(discord.TextChannel, "The channel, the message should be send to.")
+        channel: Option(discord.TextChannel, "The channel, the message should be send to.")):
 ):
 ```
 
@@ -38,7 +38,7 @@ async def echo(
 async def echo(
         ctx,
         text: Option(str, "The text you want to send"),
-        channel: Option(discord.TextChannel, "The channel, the message should be send to.")
+        channel: Option(discord.TextChannel, "The channel, the message should be send to.")):
     await channel.send(text)
     await ctx.respond("Message sent", ephemeral=True)
 ```
@@ -52,7 +52,7 @@ async def echo(
 async def echo(
         ctx,
         text: Option(str, "The text you want to send"),
-        channel: Option(discord.TextChannel, "The channel, the message should be send to.")
+        channel: Option(discord.TextChannel, "The channel, the message should be send to.")):
     await channel.send(text)
     await ctx.respond("Message sent", ephemeral=True)
 ```
@@ -67,7 +67,7 @@ async def echo(
 async def echo(
         ctx,
         text: Option(str, "The text you want to send"),
-        channel: Option(discord.TextChannel, "The channel, the message should be send to.")
+        channel: Option(discord.TextChannel, "The channel, the message should be send to.")):
     await channel.send(text)
     await ctx.respond("Message sent", ephemeral=True)
 ```
@@ -77,12 +77,13 @@ async def echo(
 ## Insert into the code in the main.py file.
 
 » We first have to import ezcord at the top.
-» Also we have to import Option from discord.commands
-» Now we have to replace the discord.Bot with ezcord.Bot
+» Also we have to import Option from discord.commands and commands from discord.ext. 
+» Now we have to replace the discord.Bot with ezcord.Bot.
 
 ```python
 import discord
 from discord.commands import Option
+from discord.ext import commands
 import ezcord
 
 intents = discord.Intents.default()
@@ -134,6 +135,7 @@ bot.run(TOKEN)
 ```python
 import discord
 from discord.commands import Option
+from discord.ext import commands
 import ezcord
 
 intents = discord.Intents.default()
@@ -183,7 +185,7 @@ async def ping(ctx):
 async def echo(
         ctx,
         text: Option(str, "The text you want to send"),
-        channel: Option(discord.TextChannel, "The channel, the message should be send to.")
+        channel: Option(discord.TextChannel, "The channel, the message should be send to.")):
     await channel.send(text)
     await ctx.respond("Message sent", ephemeral=True)
 
