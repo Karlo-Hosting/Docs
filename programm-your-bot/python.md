@@ -103,7 +103,7 @@ bot.run(TOKEN)
 
 ## Final
 
-» Upload the main.py file to the Karlo-Hosting Panel
+» Upload the main.py file to the [Karlo-Hosting Panel](https:panel.karlo-hosting.com). For that you have to  be registered at [Karlo-Hosting](https:karlo-hosting.com)
 
 » If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
 
