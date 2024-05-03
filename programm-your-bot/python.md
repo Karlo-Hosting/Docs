@@ -109,3 +109,5 @@ Create a file called "requirements.txt" and insert the required packages (here: 
 » If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
 
 » If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
+
+» If you want to learn more about python Discord-Bots go to [the mor-python](/programm-your-bot/more-python.md) tutorial
