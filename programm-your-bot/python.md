@@ -103,7 +103,7 @@ bot.run(TOKEN)
 
 ## Final
 
-» You have to  be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a server. You can watch the [Tutorial](https://www.youtube.com/watch?v=ekyMHgiaWbE).
+» You have to  be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a server. You can watch the [Tutorial](https://www.youtube.com/watch?v=ekyMHgiaWbE) if you don't know how it works
 
 » Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord)
 
