@@ -1,4 +1,5 @@
 # Advanced Python
+***DISCLAIMER:* This Guide has been written by the community**
 
 Learn more about Discord-Bots written in python.
 
