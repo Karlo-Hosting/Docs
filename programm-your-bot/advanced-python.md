@@ -284,3 +284,7 @@ async def echo(
 bot.run(TOKEN)
 # This will start the Bot
 ```
+
+## Final
+
+» This tutorial is mainly written by HiGamingDE2000. If you have questions about the code or other things in this tutorial, you can ask him.
