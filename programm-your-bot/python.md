@@ -110,4 +110,4 @@ Create a file called "requirements.txt" and insert the required packages (here: 
 
 » If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
 
-» If you want to learn more about python Discord-Bots go to [the mor-python](/programm-your-bot/more-python.md) tutorial
+» If you want to learn more about python Discord-Bots go to [the more-python](/programm-your-bot/more-python.md) tutorial
