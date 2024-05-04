@@ -197,9 +197,9 @@ bot.run(TOKEN)
 ```
 ## Activity and Status
 
-» We will create an activity like `playing discord` and an status (`online`, `idle`, `do not disturbe`)
+» We will create an activity like `playing discord` and a status (`online`, `idle`, `do not disturbe`)
 
-» First we will set an status.
+» First we will set a status.
 
 ```python
 status = discord.Status.online
