@@ -1,11 +1,10 @@
 # Python Demo Bot
+***DISCLAIMER:* This Guide has been written by the community**
 
 How to create a Python Discord Bot with py-cord
 
 > [!NOTE]
 > This guide uses PyCharm.
-> 
-> DISCLAIMER: This Guide has been written by the community
 
 ## Installation
 
