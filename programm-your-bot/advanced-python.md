@@ -1,4 +1,4 @@
-# More Python
+# Advanced Python
 
 Learn more about Discord-Bots written in python.
 
