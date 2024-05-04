@@ -77,7 +77,9 @@ async def echo(
 ## Insert into the code in the main.py file.
 
 » We first have to import ezcord at the top.
+
 » Also we have to import Option from discord.commands and commands from discord.ext. 
+
 » Now we have to replace the discord.Bot with ezcord.Bot.
 
 ```python
