@@ -287,4 +287,4 @@ bot.run(TOKEN)
 
 ## Final
 
-» This tutorial is mainly written by HiGamingDE2000. If you have questions about the code or other things in this tutorial, you can ask him.
+» This tutorial is mainly written by [HiGamingDE2000](https://github.com/HiGamingDE2000/contact-me). If you have questions about the code or other things in this tutorial, you can [contact](https://github.com/HiGamingDE2000/contact-me) him.
