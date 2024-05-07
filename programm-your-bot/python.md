@@ -113,3 +113,5 @@ bot.run(TOKEN)
 » If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
 
 » If you want to learn more about python Discord-Bots go to the [advanced-python](/programm-your-bot/advanced-python.md) tutorial. There you will learn more about commands and also aboout activitys and the bot status.
+
+»If you have ideas for this tutorial, you can easily contribute.
