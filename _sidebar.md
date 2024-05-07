@@ -12,6 +12,6 @@
   - [Java](/programm-your-bot/java.md)
   - [JavaScript](/programm-your-bot/javascript.md)
   - [Python](/programm-your-bot/python.md)
-- :memo: About the Wiki
+- 📝 About the Wiki
   - [Home](/README.md)
   - [License](/LICENSE.md)
