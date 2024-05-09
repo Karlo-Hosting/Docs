@@ -1,4 +1,5 @@
 # Python Demo Bot
+***DISCLAIMER:* This Guide has been written by the community**
 
 How to create a Python Discord Bot with py-cord
 
@@ -45,7 +46,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 # This allowes the bot to view the content of messages
 
-client = discord.Bot(intents=intents)
+bot = discord.Bot(intents=intents)
 # Creates the bot with the intents
 
 TOKEN = 'TOKEN'
@@ -62,22 +63,23 @@ intents = discord.Intents.default()
 intents.message_content = True
 # This allowes the bot to view the content of messages
 
-client = discord.Bot(intents=intents)
+bot = discord.Bot(intents=intents)
 # Creates the bot with the intents
 
-TOKEN = TOKEN'
+TOKEN = 'TOKEN'
 # This sets the variable TOKEN with your token
 
 
-@client.event
+@bot.event
 # This calls the event listener of py-cord to listen to the on_ready event and when its executed to run the code
 async def on_ready():
-    print(f'{client.user} has connected to Discord!')
+    print(f'{bot.user} has connected to Discord!')
     # This will be printed when the Bot has successfully connected to Discord
 
 
-@client.event
+@bot.event
 # This calls the event listener of py-cord to listen to the on_message event and when its executed to run the code
+# This is an old method. Please use slash-commands if you can.
 async def on_message(message):
     if message.content == 'ping':
         # This is checking if the message equals  "ping"
@@ -87,18 +89,27 @@ async def on_message(message):
         # This is responding "pong" to the message
 
 
-@client.slash_command(name='ping', description='Ping!')
+@bot.slash_command(name='ping', description='Ping!')
 # This calls the slash command manager of py-cord to create a new command with the name ping and description "Ping!"
 # and when the command is executed to run the code
 async def ping(ctx):
-    await ctx.respond(f"Pong!")
-    # This is responding "Pong!" to the command
+    latency = bot.latency * 1000
+    await ctx.respond(f"Latency: {latency:.2f} ms!")
+    # This is responding with the latency of the bot, to the command
 
 
-client.run(TOKEN)
+bot.run(TOKEN)
 # This will start the Bot
 ```
 
 ## Final
 
-» Upload the main.py file to the Karlo-Hosting Panel
+» You have to  be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a server. You can watch the [Tutorial](https://www.youtube.com/watch?v=ekyMHgiaWbE) if you don't know how it works
+
+» Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord). Under the startup tab of the server you have to set the `bot py file` to `main.py`
+
+» If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
+
+» If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
+
+» If you want to learn more about python Discord-Bots go to the [advanced-python](/programm-your-bot/advanced-python.md) tutorial. There you will learn more about commands and also aboout activitys and the bot status.
