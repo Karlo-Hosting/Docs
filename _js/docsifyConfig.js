@@ -26,65 +26,16 @@ window.$docsify = {
         color: 'var(--accent)',
         height: '2px',
     },
-    darklightTheme: {
-        // Theme colors chose according to Resonite color palette
-        dark: {
-            'custom_tw-primary': 'oklch(65.69% 0.196 275.75)',
-            'custom_tw-secondary': 'oklch(74.8% 0.26 342.55)',
-            'custom_tw-accent': 'oklch(74.51% 0.167 183.61)',
-            'custom_tw-neutral': '#2a323c',
-            'custom_tw-neutral-content': '#A6ADBB',
-            'custom_tw-base-100': '#1d232a',
-            'custom_tw-base-200': '#191e24',
-            'custom_tw-base-300': '#15191e',
-            'custom_tw-base-content': '#A6ADBB',
-
-            custom_dropshadow: 'var(--custom_tw-base-200)',
-            custom_sidebar: 'var(--custom_tw-base-300)',
-            // custom_logo_invert: '',
-
-            'theme-color': 'var(--accent)', // docsify search outline
-            accent: 'var(--custom_tw-primary)',
-            background: 'var(--custom_tw-base-100)',
-            textColor: 'var(--custom_tw-base-content)',
-            codeTextColor: 'var(--custom_tw-neutral-content)',
-            codeBackgroundColor: 'var(--custom_tw-neutral)', // + sidebar
-            borderColor: 'var(--custom_tw-primary)',
-            blockQuoteColor: 'var(--custom_tw-base-content)',
-            highlightColor: 'var(--custom_tw-accent)',
-            sidebarSublink: 'var(--custom_tw-base-content)',
-            codeTypeColor: 'var(--custom_tw-accent)',
-            // coverBackground : 'linear-gradient(to left bottom, var(--custom_tw-primary), var(--custom_tw-secondary))',
-            // toogleBackground : '#ffffff', // no one knows that this is used for
+    'flexible-alerts': {
+        important: {
+            label: 'Important',
+            icon: 'icon-important',
+            className: 'important'
         },
-        light: {
-            'custom_tw-primary': '#65c3c8',
-            'custom_tw-secondary': '#ef9fbc',
-            'custom_tw-accent': '#eeaf3a',
-            'custom_tw-neutral': '#291334',
-            'custom_tw-neutral-content': '#D7DDE4',
-            'custom_tw-base-100': '#faf7f5',
-            'custom_tw-base-200': '#efeae6',
-            'custom_tw-base-300': '#e7e2df',
-            'custom_tw-base-content': '#291334',
-
-            custom_dropshadow: 'var(--custom_tw-base-200)',
-            custom_sidebar: 'var(--custom_tw-base-300)',
-            // custom_logo_invert: '',
-
-            'theme-color': 'var(--accent)', // docsify search outline
-            accent: 'var(--custom_tw-accent)',
-            background: 'var(--custom_tw-base-100)',
-            textColor: 'var(--custom_tw-base-content)',
-            codeTextColor: 'var(--custom_tw-neutral-content)',
-            codeBackgroundColor: 'var(--custom_tw-neutral)', // + sidebar
-            borderColor: 'var(--custom_tw-accent)',
-            blockQuoteColor: 'var(--custom_tw-base-content)',
-            highlightColor: 'var(--custom_tw-accent)',
-            sidebarSublink: 'var(--custom_tw-base-content)',
-            codeTypeColor: 'var(--custom_tw-accent)',
-            // coverBackground : 'linear-gradient(to left bottom, var(--custom_tw-primary), var(--custom_tw-secondary))',
-            // toogleBackground : '#ffffff', // no one knows that this is used for
-        },
-    },
+        caution: {
+            label: 'Caution',
+            icon: 'icon-attention',
+            className: 'attention'
+        }
+    }
 };
