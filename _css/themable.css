@@ -1,0 +1,85 @@
+/* ####################################### */
+/* docsify-themable adjustions */
+/* ####################################### */
+
+:root {
+  /* app */
+  --theme-color: var(--primary);
+
+  /* base */
+  --base-background-color: var(--base-100);
+  --base-color: var(--base-content);
+
+  --mark-background: var(--warning);
+  --mark-color: var(--neutral);
+
+  --selection-color: var(--primary);
+
+  /* content */
+  --blockquote-border-color: var(--accent);
+  --blockquote-color: var(--base-content);
+
+  --code-theme-text: var(--base-content);
+
+  --heading-color: var(--base-content);
+  --heading-h2-border-color: var(--neutral);
+
+  --table-shadow-color: var(--base-200); /* custom var */
+  --table-body-border-color: var(--base-300);
+  --table-head-border-color: var(--base-300);
+  --table-body-border-width: 2px;
+  --table-head-border-width: 2px;
+  --table-head-background: var(--base-300);
+  --table-row-even-background: var(--base-200);
+  --table-row-odd-background: var(--base-100);
+
+  --notice-background: var(--base-300);
+  --notice-shadow-color: var(--base-200); /* custom var */
+
+  --link-color: var(--primary);
+  --link-text-decoration: unset;
+  --link-text-decoration--hover: underline;
+
+  /* Not possible: see fixes.css ln30ff */
+  --notice-note-border-color: var(--info);
+  --notice-note-color: var(--info);
+  --notice-tip-border-color: var(--success);
+  --notice-tip-color: var(--success);
+  --notice-important-border-color: var(--secondary); /* renamed due to funni coloring of "tip" notice texts */
+  --notice-important-color: var(--secondary); /* renamed due to funni coloring of "tip" notice texts */
+  --notice-warning-border-color: var(--warning);
+  --notice-warning-color: var(--warning);
+  --notice-attention-border-color: var(--error);
+  --notice-attention-color: var(--error);
+
+  /* Sidebar */
+
+  --sidebar-background: var(--base-300);
+  --sidebar-toggle-background: var(--base-300);
+  --sidebar-border-color: transparent;
+  --sidebar-width: 19rem;
+  --sidebar-shadow-color: var(--base-200); /* custom var */
+
+  --sidebar-nav-pagelink-padding: 0px;
+  --sidebar-nav-pagelink-background: transparent;
+
+  /* Search */
+
+  --search-input-background-color: var(--base-200);
+  --search-result-keyword-background: var(--primary);
+  --search-input-border-width: unset;
+  --search-clear-icon-color1: var(--neutral);
+  --search-clear-icon-color2: var(--primary);
+
+  /* Zoom Image */
+
+  /* shadow color is also used for codeblocks */
+  --zoomimage-shadow-color: var(--base-200); /* custom var */
+
+  /* ToC */
+  --toc-side-indicator: var(--neutral);
+  --toc-side-indicator-active: var(--primary);
+  --toc-mobile-background: var(--base-200);
+  --toc-shadow-color: var(--base-200);
+}
+
