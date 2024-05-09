@@ -1,4 +1,0 @@
-- :link: Links
-  - [Website](https://karlo-hosting.com/)
-  - [Discord](https://discord.gg/HRZCYGSrta)
-  - [Contribute to Docs](https://github.com/Karlo-Hosting/Docs)

@@ -7,7 +7,7 @@ Content, code and fonts for this documentation are separately licensed.
 - Fonts are Licensed under the [Open Font License](/LICENSE.md#open-font-license).
 - Individual articles can be licensed differently. They are marked and sourced at the bottom of the page accordingly.
 
-## MIT License +
+## MIT License
 
 > Custom plugins and code edits: Copyright (c) 2024 - present [Unofficial-Resonite-Docs Contributors](https://github.com/FlippedCodes/Unofficial-Resonite-Docs/graphs/contributors)
 >
@@ -51,7 +51,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## GNU License +
+## GNU License
 
 GNU LESSER GENERAL PUBLIC LICENSE
 
@@ -220,7 +220,7 @@ apply, that proxy's public statement of acceptance of any version is
 permanent authorization for you to choose that version for the
 Library.
 
-## Creative Commons Attribution-ShareAlike 4.0 International +
+## Creative Commons Attribution-ShareAlike 4.0 International
 
 > A simple simplified explanation can be found on [creativecommons.org](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
@@ -394,7 +394,7 @@ d. Nothing in this Public License constitutes or may be interpreted as a limitat
 >
 > Creative Commons may be contacted at creativecommons.org.
 
-## Open Font License +
+## Open Font License
 
 Copyright (c) 2010, [ParaType Ltd.](http://www.paratype.com/public),
 with Reserved Font Names "PT Sans" and "ParaType".
