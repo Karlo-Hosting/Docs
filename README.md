@@ -1,6 +1,6 @@
 # Karlo-Hosting Documentation
 
-[Karlo Hosting](https://karlo-hosting.com) is a free Discord bot hoster for discord bots and MySQL databases.
+[Karlo Hosting](https://karlo-hosting.com) is a free hoster for Discord bots and databases.
 
 ## Table of contents
 
