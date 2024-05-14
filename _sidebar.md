@@ -10,8 +10,7 @@
   - [Wrong name for startup file](/troubleshooting/wrong-name-for-startup-file.md)
 - **⌨️ Discord Bot guides**
   - [Java](/programm-your-bot/java.md)
-  - [JavaScript](/programm-your-bot/javascript.md)
-  - [Python](/programm-your-bot/python.md)
+  - [Node (JavaScript)](/programm-your-bot/node.md)
 - **📝 About the Wiki**
   - [Home](/README.md)
   - [License](/LICENSE.md)
