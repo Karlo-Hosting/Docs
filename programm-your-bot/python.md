@@ -8,35 +8,27 @@ How to create a Python Discord Bot with py-cord
 
 ## Installation
 
-» Download an IDE of your choice, preferably PyCharm you can download it [here](https://www.jetbrains.com/de-de/pycharm/download/).
-
-» Finish installing the programme to your pc and open it when you are done.
+1. Download an IDE of your choice, preferably PyCharm you can download it [here](https://www.jetbrains.com/de-de/pycharm/download/).
+1. Finish installing the programme to your pc and open it when you are done.
 
 ## Configuration
 
-» Make sure you have python set up on your device. If you don't, download it [here](https://www.python.org/downloads/).
-
-» Create a new project, set your base interpreter, if its not set, this should be the path to the .exe file of your installed python.
-
-» You can set a few more settings if you want like the location of your project
-
-» When you are done click create.
+1. Make sure you have python set up on your device. If you don't, download it [here](https://www.python.org/downloads/).
+1. Create a new project, set your base interpreter, if its not set, this should be the path to the .exe file of your installed python.
+1. You can set a few more settings if you want like the location of your project
+1. When you are done click create.
 
 ## Library set up
 
-» Go to the File in the left up corner and search for `Python Interpreter`
-
-» Add a dependency by clicking the + and searching for `py-cord`
-
-» Click "Install Package"
-
-» Wait for the packge to be installed and close the two pop up windows.
+1. Go to the File in the left up corner and search for `Python Interpreter`
+1. Add a dependency by clicking the + and searching for `py-cord`
+1. Click "Install Package"
+1. Wait for the packge to be installed and close the two pop up windows.
 
 ## Example Bot
 
-» Clear the main file you should see now. This will be used to register the bot.
-
-» Now add this code to the class.
+1. Clear the main file you should see now. This will be used to register the bot.
+1. Now add this code to the class.
 
 ```python
 import discord
@@ -53,7 +45,7 @@ TOKEN = 'TOKEN'
 # This sets the variable TOKEN with your token
 ```
 
-» Next we will create the events.
+3. Next we will create the events.
 
 ```python
 import discord
@@ -101,15 +93,18 @@ async def ping(ctx):
 bot.run(TOKEN)
 # This will start the Bot
 ```
-
+<!-- panels:start -->
+<!-- div:title-panel -->
 ## Final
 
-» You have to  be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a server. You can watch the [Tutorial](https://www.youtube.com/watch?v=ekyMHgiaWbE) if you don't know how it works
+<!-- div:right-panel -->
+[Tutorial Video](https://www.youtube-nocookie.com/embed/ekyMHgiaWbE ':include :type=iframe width=80% height=200px')
 
-» Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord). Under the startup tab of the server you have to set the `bot py file` to `main.py`
+<!-- div:left-panel -->
+- You have to be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a server.
+- Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord). Under the startup tab of the server you have to set the `bot py file` to `main.py`
+- If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
+- If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
+- If you want to learn more about python Discord-Bots go to the [advanced-python](/programm-your-bot/advanced-python.md) tutorial. There you will learn more about commands and also aboout activitys and the bot status.
 
-» If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
-
-» If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
-
-» If you want to learn more about python Discord-Bots go to the [advanced-python](/programm-your-bot/advanced-python.md) tutorial. There you will learn more about commands and also aboout activitys and the bot status.
+<!-- panels:end -->
