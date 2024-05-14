@@ -11,6 +11,8 @@
 - **⌨️ Discord Bot guides**
   - [Java](/programm-your-bot/java.md)
   - [Node (JavaScript)](/programm-your-bot/node.md)
+  - [Python](/programm-your-bot/python/README.md)
+    - [Advanced](/programm-your-bot/python/advanced.md)
 - **📝 About the Wiki**
   - [Home](/README.md)
   - [License](/LICENSE.md)
