@@ -1,17 +1,18 @@
 - **📌 Getting Started**
+  - [Setting up a server](/getting-started/setting-up-a-server.md)
   - [Connect with GIT](/getting-started/connect-with-git.md)
   - [How to change the version of your servers software.](/getting-started/how-to-change-the-version-of-your-servers-software..md)
   - [How to use SFTP](/getting-started/how-to-use-sftp.md)
   - [Install additional package modules](/getting-started/install-additional-packages-modules.md)
-  - [Setting up a server](/getting-started/setting-up-a-server.md)
 - **🛟 Troubleshooting**
   - [Server crashing entrypoint.sh](/troubleshooting/server-crashing-entrypoint.sh.md)
   - [The panel website loaded but is completly white](/troubleshooting/the-panel-website-loaded-but-is-completly-white.md)
   - [Wrong name for startup file](/troubleshooting/wrong-name-for-startup-file.md)
-- **⌨️ Discord Bot development guides**
+- **⌨️ Discord Bot guides**
   - [Java](/programm-your-bot/java.md)
-  - [JavaScript](/programm-your-bot/javascript.md)
-  - [Python](/programm-your-bot/python.md)
+  - [Node (JavaScript)](/programm-your-bot/node.md)
+  - [Python](/programm-your-bot/python/README.md)
+    - [Advanced](/programm-your-bot/python/advanced.md)
 - **📝 About the Wiki**
   - [Home](/README.md)
   - [License](/LICENSE.md)
