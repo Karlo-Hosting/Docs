@@ -8,20 +8,20 @@ Learn more about Discord-Bots written in python.
 
 ## Library set up
 
-» Please install `ezcord` as shown in the first tutorial.
+- Please install `ezcord` as shown in the first tutorial.
 
 ## Creating an new command: echo
 
-» This command let you send a message in the name of the bot.
+This command let you send a message in the name of the bot.
 
-» First create the command
+1. First create the command
 
 ```python
 @bot.slash_command(name='echo', description='Send a message in the name of the bot.')
 async def echo():
 ```
 
-» Now we need some parameters in the async def function.
+2. Now we need some parameters in the async def function.
 
 ```python
 @bot.slash_command(name='echo', description='Send a message in the name of the bot.')
@@ -32,7 +32,7 @@ async def echo(
 ):
 ```
 
-» Now we add the code to send the message. Also this shows you if the message was sent.
+3. Now we add the code to send the message. Also this shows you if the message was sent.
 
 ```python
 @bot.slash_command(name='echo', description='Send a message in the name of the bot.')
@@ -44,7 +44,7 @@ async def echo(
     await ctx.respond("Message sent", ephemeral=True)
 ```
 
-» We don't want that users that aren't an administrator on the Discord-Server can use this command
+4. We don't want that users that aren't an administrator on the Discord-Server can use this command
 
 ```python
 @bot.slash_command(name='echo', description='Send a message in the name of the bot.')
@@ -58,7 +58,7 @@ async def echo(
     await ctx.respond("Message sent", ephemeral=True)
 ```
 
-» We also don't want, that the command gets abused, so we add a limit to only allow every user to use that command once every 30 seconds.
+4. We also don't want, that the command gets abused, so we add a limit to only allow every user to use that command once every 30 seconds.
 
 ```python
 @bot.slash_command(name='echo', description='Send a message in the name of the bot.')
@@ -73,15 +73,13 @@ async def echo(
     await ctx.respond("Message sent", ephemeral=True)
 ```
 
-» That command is now finished.
+That command is now finished.
 
-## Insert into the code in the main.py file.
+## Insert into the code in the main.py file
 
-» We first have to import ezcord at the top.
-
-» Also we have to import Option from discord.commands and commands from discord.ext. 
-
-» Now we have to replace the discord.Bot with ezcord.Bot.
+1. We first have to import ezcord at the top.
+1. Also we have to import Option from discord.commands and commands from discord.ext.
+1. Now we have to replace the discord.Bot with ezcord.Bot.
 
 ```python
 import discord
@@ -133,7 +131,7 @@ bot.run(TOKEN)
 # This will start the Bot
 ```
 
-» Next we will insert the new command.
+4. Next we will insert the new command.
 
 ```python
 import discord
@@ -198,16 +196,15 @@ bot.run(TOKEN)
 ```
 ## Activity and Status
 
-» We will create an activity like `playing discord` and a status (`online`, `idle`, `do not disturbe`)
-
-» First we will set a status.
+1. We will create an activity like `playing discord` and a status (`online`, `idle`, `do not disturbe`)
+1. First we will set a status.
 
 ```python
 status = discord.Status.online
 # can be online, dnd, idle or offline
 ```
 
-» Next we will set the activity.
+3. Next we will set the activity.
 
 ```python
 activity = discord.Activity(type=discord.ActivityType.playing, name="Discord")
@@ -215,7 +212,7 @@ activity = discord.Activity(type=discord.ActivityType.playing, name="Discord")
 # the name can be anything you want.
 ```
 
-» Now we will insert this into our code.
+4. Now we will insert this into our code.
 
 ```python
 import discord

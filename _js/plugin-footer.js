@@ -12,7 +12,7 @@ function footerPlugin(hook, vm) {
   hook.doneEach(() => {
     const html = document.querySelector('main section article');
     
-    // TODO: Look into what this does
+    // if 3rd-Party articles are being sued, fix the link for the Edit button
     if (/githubusercontent\.com/.test(vm.route.file)) {
       url = vm.route.file
         .replace("raw.githubusercontent.com", "github.com")
