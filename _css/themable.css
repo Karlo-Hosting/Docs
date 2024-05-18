@@ -62,6 +62,8 @@
 
   --sidebar-nav-pagelink-padding: 0px;
   --sidebar-nav-pagelink-background: transparent;
+  --sidebar-nav-pagelink-background--loaded: unset;
+  --sidebar-nav-pagelink-background--active: unset;
 
   /* Search */
 
