@@ -105,6 +105,6 @@ bot.run(TOKEN)
 - Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord). Under the startup tab of the server you have to set the `bot py file` to `main.py`
 - If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
 - If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
-- If you want to learn more about python Discord-Bots go to the [advanced-python](/programm-your-bot/advanced-python.md) tutorial. There you will learn more about commands and also aboout activitys and the bot status.
+- If you want to learn more about python Discord-Bots go to the [advanced-python](/programm-your-bot/python/advanced.md) tutorial. There you will learn more about commands and also aboout activitys and the bot status.
 
 <!-- panels:end -->
