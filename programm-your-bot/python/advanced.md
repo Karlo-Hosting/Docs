@@ -290,13 +290,13 @@ Now we will store our Bot Token in an external File. For that, please install `p
 
 `TOKEN = ` and then your Bot Token.
 
-2. The next step is to ajust our main.py file. First we have to add the text:
+2. The next step is to adjust our main.py file. First we have to add the text:
 
-```
+```python
 from dotenv import load_dotenv
 ```
 at the top and at the bottom replace the `bot.run(TOKEN)` with:
-```
+```python
 load_dotenv()
 bot.run(os.getenv("TOKEN"))
 ```
