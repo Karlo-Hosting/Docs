@@ -17,6 +17,21 @@ Logo:
     brightness(80%);
 }
 
+/* 
+Header Edit Button:
+  color + location
+*/
+
+.edit-page {
+  fill: var(--base-color);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*
 Search:
   fix clear button location
