@@ -7,6 +7,14 @@ window.$docsify = {
     loadSidebar: true,
     logo: './_media/logo.png', // gets converted with css for dark mode
     formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
+    alias: {
+
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md',
+    },
+    nameLink: {
+        '/': '#/',
+    },
     toc: {
         tocMaxLevel: 3,
         target: 'h2, h3, h4, h5, h6',
