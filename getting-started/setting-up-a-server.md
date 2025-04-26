@@ -4,7 +4,7 @@
 
 To get a server, you first need an account in our [customer center](https://karlo-hosting.com/dash/home). Now you will be prompted to register with Karlo Hosting. 
 
-![Register](../_media/Screenshot%2025-04-26%132302.png)
+![Register](../_media/Screenshot 2025-04-26 132302.png)
 You can now register using GitHub, Discord, Google, or email. This will allow you to access our customer center.
 
 ## Request an Server
