@@ -16,6 +16,7 @@ Next select "Your Servers" and click on the top right corner.
 </p>
 
 Then select the language you want to use and click "ORDER NOW". Then wait until the deployment is done, copy the password and the username and log in to the [server management panel](https://panel.karlo-hosting.com/) with your provided password.
+
 ![Register](../_media/Screenshot_selectlanguage.png)
 
 <!-- panels:start -->
