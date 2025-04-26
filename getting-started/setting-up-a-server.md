@@ -9,7 +9,7 @@ You can now register using GitHub, Discord, Google, or email. This will allow yo
 
 ## Request an Server
 
-Next select "Your Servers" and click on the top right corner. 
+Next select "Your Servers" in the customer center and click on the plus icon in the top right corner. 
 <p align="center">
   <img src="../_media/Screenshot_dash.png" alt="dash" width="45%" />
   <img src="../_media/Screenshot_serversdash.png" alt="serversdash" width="45%" />
