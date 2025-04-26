@@ -15,10 +15,13 @@ Next select "Your Servers" and click on the top right corner.
   <img src="../_media/Screenshot_serversdash.png" alt="serversdash" width="45%" />
 </p>
 
-Then select the language you want to use and click "ORDER NOW". Then wait until the deployment is done, copy the password and the username and log in to the [server management panel](https://panel.karlo-hosting.com/) with your provided password.
+Then select the language you want to use and click "ORDER NOW". Then wait until the deployment is done, copy the password and the username, it will only be displayed once. 
 
-![Register](../_media/Screenshot_selectlanguage.png)
+![selectlanguage](../_media/Screenshot_selectlanguage.png)
 
+Now log in to the [server management panel](https://panel.karlo-hosting.com/) with your provided password.
+
+![peterologin](../_media/Screenshot_peterologin.png)
 <!-- panels:start -->
 <!-- div:title-panel -->
 ## Setting up your Server
