@@ -9,7 +9,11 @@ You can now register using GitHub, Discord, Google, or email. This will allow yo
 
 ## Request an Server
 
-Next select "Your Servers" and click on the top right corner. Then select the language you want to use and click "ORDER NOW". Then wait until the deployment is done, copy the password and the username and log in to the [server management panel](https://panel.karlo-hosting.com/) with your provided password.
+Next select "Your Servers" and click on the top right corner. 
+![dash](../_media/Screenshot_dash.png)
+![serversdash](../_media/Screenshot_serversdash.png)
+
+Then select the language you want to use and click "ORDER NOW". Then wait until the deployment is done, copy the password and the username and log in to the [server management panel](https://panel.karlo-hosting.com/) with your provided password.
 
 <!-- panels:start -->
 <!-- div:title-panel -->
