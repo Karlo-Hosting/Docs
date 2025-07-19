@@ -101,10 +101,9 @@ bot.run(TOKEN)
 [Tutorial Video](https://www.youtube-nocookie.com/embed/ekyMHgiaWbE ':include :type=iframe width=80% height=200px')
 
 <!-- div:left-panel -->
-- You have to be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a server.
-- Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord). Under the startup tab of the server you have to set the `bot py file` to `main.py`
-- If you need more information go to the [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev)
-- If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ)
-- If you want to learn more about python Discord-Bots go to the [advanced-python](/programm-your-bot/python/advanced.md) tutorial. There you will learn more about commands and also aboout activitys and the bot status.
+- In order to host your bot 24/7, you have to be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a python server.
+- Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord). Under the startup tab of the server you have to set the `bot py file` to `main.py`.
+- If you need more information go to the official [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev). You could also read the [advanced tutorial](/programm-your-bot/python/advanced.md). There you will learn more about commands and also aboout activitys and the bot status.
+- If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ).
 
 <!-- panels:end -->
