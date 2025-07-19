@@ -3,7 +3,7 @@
 function siteWrapperPlugin(hook, vm) {
   const footer = [
     '<footer style="text-align: center; padding-top: 40px;">',
-    'Karlo-Hosting &copy; 2024',
+    'Karlo-Hosting &copy; 2025',
     "<br/>",
     'Made with <span style="color: lightcoral">❤</span> by <a href="https://github.com/Karlo-Hosting" target="_blank">@Karlo-Hosting</a> and <a href="https://github.com/Karlo-Hosting/Docs/graphs/contributors" target="_blank">Helpers</a>',
     "</footer>",
