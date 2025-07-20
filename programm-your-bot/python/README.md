@@ -29,13 +29,13 @@ How to create a Python Discord Bot with py-cord
 
 1. Open the [Discord Developer Portal](https://discord.com/developers/applications)
 1. Click on `New Application`. Now enter any name you want for it and click create.
-1. Open the Application settings, then click on `bot` at the left side of the screen.
-1. Here you can change the username, profile picture and banner of the bot.
-1. Now click on the `Reset Token` button. The bot token will be shown to you. Store the token somewhere safe, it is needed to run the code.
-1. For this tutorial only the `Message Content Intent` is needed. You have to activate this.
-1. Now click on the `OAuth2` button on the left side. At the OAuth2 URL Generator click on `bot` and `application.commands`.
-1. Just for testing you can enable the Bot Permission `Administrator`. After testing you should only use the permissions needed.
-1. At the bottom you can find a generated url. Open it and invite the bot to your server to use it.
+1. Open the application settings, then click on `bot` at the left side of the screen.
+1. Here you can change the username, profile picture, and banner of the bot.
+1. Now click on the `Reset Token` button. The bot token will be shown to you. Store the token somewhere safe; it is needed to run the code.
+1. For this tutorial, only the `Message Content Intent` is needed. You have to activate this.
+1. Now click on the `OAuth2` button on the left side. At the OAuth2 URL Generator, click on `bot` and `application.commands`.
+1. Just for testing, you can enable the bot permission `Administrator`. After testing, you should only use the permissions needed.
+1. At the bottom you can find a generated URL. Open it and invite the bot to your server to use it.
 
 ## Example Bot
 
@@ -113,9 +113,9 @@ bot.run(TOKEN)
 [Tutorial Video](https://www.youtube-nocookie.com/embed/ekyMHgiaWbE ':include :type=iframe width=80% height=200px')
 
 <!-- div:left-panel -->
-- In order to host your bot 24/7, you have to be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a python server.
-- Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord). Under the startup tab of the server you have to set the `bot py file` to `main.py`.
-- If you need more information go to the official [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev). You could also read the [advanced tutorial](/programm-your-bot/python/advanced.md). There you will learn more about commands and also aboout activitys and the bot status.
-- If you need help go to the [Karlo-Hosting discord server](https://discord.gg/xBPFF244eJ).
+- In order to host your bot 24/7, you have to be registered at [Karlo-Hosting](https://karlo-hosting.com) and own a Python server.
+- Upload the main.py file to the [Karlo-Hosting Panel](https://panel.karlo-hosting.com). Then create a file called "requirements.txt" and insert the required packages (here: py-cord). Under the startup tab of the server, you have to set the `bot py file` to `main.py`.
+- If you need more information, go to the official [pycord guide](https://guide.pycord.dev) or the [pycord docs](https://docs.pycord.dev). You could also read the [advanced tutorial](/programm-your-bot/python/advanced.md). There you will learn more about commands and also about activities and the bot status.
+- If you need help, go to the [Karlo-Hosting Discord server](https://discord.gg/xBPFF244eJ).
 
 <!-- panels:end -->
