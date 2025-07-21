@@ -1,28 +1,39 @@
 # Setting up a Server
 
+<!-- panels:start -->
+<!-- div:title-panel -->
 ## Create an Account
 
-To get a server, you first need an account in our [customer center](https://karlo-hosting.com/dash/home). Now you will be prompted to register with Karlo Hosting. 
+<!-- div:left-panel -->
+To get a server, you first need an account in our [customer center](https://karlo-hosting.com/dash/home). Now you will be prompted to register with Karlo Hosting.
 
-![Register](../_media/Screenshot_register.png)
 You can now register using GitHub, Discord, Google, or email. This will allow you to access our customer center.
 
-## Request an Server
+<!-- div:right-panel -->
+![DemoServer Startup Settings 2](../_media/Screenshot%20From%202025-07-21%2023-02-52.png)
 
-Next select "Your Servers" in the customer center and click on the plus icon in the top right corner. 
-<p align="center">
-  <img src="../_media/Screenshot_dash.png" alt="dash" width="45%" />
-  <img src="../_media/Screenshot_serversdash.png" alt="serversdash" width="45%" />
-</p>
+<!-- div:title-panel -->
+## Request a Server
 
+<!-- div:left-panel -->
+Next select "Your Servers" in the customer center and click on the plus icon in the top right corner.
+
+<!-- div:right-panel -->
+![Screenshot Dash](../_media/Screenshot_dash.png)
+![Screenshot Servers Dash](../_media/Screenshot_serversdash.png)
+
+<!-- div:left-panel -->
 Then select the language you want to use and click "ORDER NOW". Then wait until the deployment is done, copy the password and the username, it will only be displayed once. 
 
+<!-- div:right-panel -->
 ![selectlanguage](../_media/Screenshot_selectlanguage.png)
 
+<!-- div:left-panel -->
 Now log in to the [server management panel](https://panel.karlo-hosting.com/) with your provided password.
 
+<!-- div:right-panel -->
 ![peterologin](../_media/Screenshot_peterologin.png)
-<!-- panels:start -->
+
 <!-- div:title-panel -->
 ## Setting up your Server
 
