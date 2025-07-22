@@ -36,7 +36,7 @@ How to create a Python Discord Bot with py-cord
 1. On the same page, click on ![Reset Token](../../_media/discord_reset_token.png ':size=13%'). The bot token will be shown to you. **Store the token somewhere safe, and don't share it with ANYONE!** It is needed for the bot to log-in.
 1. For now, only the `Message Content Intent` is needed.
 ![Message Content Intent](../../_media/discord_messageIntent.png)
-1. Now click on the ![OAuth2](../../_media/discord_oauth2.png ':size=15%') button on the left side. At the OAuth2 URL Generator, click on ![bot](../../_media/discord_oauth2_bot.png ':size=8%') and ![application.commands](../../_media/discord_oauth2_application_commans.png ':size=23%').
+1. Now click on the ![OAuth2](../../_media/discord_oauth2.png ':size=15%') button on the left side. At the OAuth2 URL Generator, click on ![bot](../../_media/discord_oauth2_bot.png ':size=8%') and ![application.commands](../../_media/discord_oauth2_application_commands.png ':size=23%').
 1. Just for testing, you can enable the bot permission `Administrator`. After testing, you should tighten the permissions to the needed ones.
 ![Administrator Permissions](../../_media/discord_oauth2_administrator.png)
 1. At the bottom you will find the generated URL. Open it and invite the bot to your server to start using it.
