@@ -79,6 +79,8 @@ dependencies {
 
 <!-- tabs:end -->
 
+[Create your Discord Bot](./python/README.md#DiscordAppCreation ':include')
+
 ## Example Bot
 
 1. Find the folder in your project src/java/main.
