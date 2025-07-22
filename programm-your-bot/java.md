@@ -79,6 +79,8 @@ dependencies {
 
 <!-- tabs:end -->
 
+[Create your Discord Bot](./python/README.md#DiscordAppCreation ':include')
+
 ## Example Bot
 
 1. Find the folder in your project src/java/main.
@@ -99,7 +101,7 @@ public class JavaDemoBot {
         JDABuilder builder = JDABuilder.create("token", GatewayIntents);
         //Sets the activity of the bot.
         builder.setActivity(Activity.playing("Demo Bot"));
-        //Registers the bot. 
+        //Registers the bot.
         try {
             jda = builder.build();
         } catch (LoginException e) {

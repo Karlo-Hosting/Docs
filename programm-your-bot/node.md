@@ -24,6 +24,8 @@ How to create an JavaScript Discord Bot with discord.js
 1. `npm init` is the next command you'll be running. This command creates a `package.json` file for you, which will keep track of the dependencies your project uses, as well as other info
 1. Now that you've installed Node.js and know how to open your console and run commands, you can finally install discord.js! Run the following command in your Terminal: `npm install discord.js`
 
+[Create your Discord Bot](./python/README.md#DiscordAppCreation ':include')
+
 ## Example Bot
 
 1. Clear the main file you should see now. This will be used to register the bot.

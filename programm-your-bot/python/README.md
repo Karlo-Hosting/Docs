@@ -25,17 +25,23 @@ How to create a Python Discord Bot with py-cord
 1. Click "Install Package"
 1. Wait for the packge to be installed and close the two pop up windows.
 
-## Bot creation
+<!-- embed:start:DiscordAppCreation -->
+
+## Create your Discord Bot
 
 1. Open the [Discord Developer Portal](https://discord.com/developers/applications)
-1. Click on `New Application`. Now enter any name you want for it and click create.
-1. Open the application settings, then click on `bot` at the left side of the screen.
+1. Click on ![New Application](../../_media/discord_new_application.png ':size=15%') and enter any name you want for your bot and click ![Create](../../_media/discord_create.png ':size=8%').
+1. Open the application and click on ![Bot](../../_media/discord_bot.png ':size=16%') on the left side of the screen.
 1. Here you can change the username, profile picture, and banner of the bot.
-1. Now click on the `Reset Token` button. The bot token will be shown to you. Store the token somewhere safe; it is needed to run the code.
-1. For this tutorial, only the `Message Content Intent` is needed. You have to activate this.
-1. Now click on the `OAuth2` button on the left side. At the OAuth2 URL Generator, click on `bot` and `application.commands`.
-1. Just for testing, you can enable the bot permission `Administrator`. After testing, you should only use the permissions needed.
-1. At the bottom you can find a generated URL. Open it and invite the bot to your server to use it.
+1. On the same page, click on ![Reset Token](../../_media/discord_reset_token.png ':size=13%'). The bot token will be shown to you. **Store the token somewhere safe, and don't share it with ANYONE!** It is needed for the bot to log-in.
+1. For now, only the `Message Content Intent` is needed.
+![Message Content Intent](../../_media/discord_messageIntent.png)
+1. Now click on the ![OAuth2](../../_media/discord_oauth2.png ':size=15%') button on the left side. At the OAuth2 URL Generator, click on ![bot](../../_media/discord_oauth2_bot.png ':size=8%') and ![application.commands](../../_media/discord_oauth2_application_commands.png ':size=23%').
+1. Just for testing, you can enable the bot permission `Administrator`. After testing, you should tighten the permissions to the needed ones.
+![Administrator Permissions](../../_media/discord_oauth2_administrator.png)
+1. At the bottom you will find the generated URL. Open it and invite the bot to your server to start using it.
+
+<!-- embed:end:DiscordAppCreation -->
 
 ## Example Bot
 
