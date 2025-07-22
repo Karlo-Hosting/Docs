@@ -23,7 +23,7 @@ Next select "Your Servers" in the customer center and click on the plus icon in 
 ![Screenshot Servers Dash](../_media/Screenshot_serversdash.png)
 
 <!-- div:left-panel -->
-Then select the language you want to use and click "ORDER NOW". Then wait until the deployment is done, copy the password and the username, it will only be displayed once. 
+Then select the language you want to use and click "ORDER NOW". Then wait until the deployment is done, copy the password and the username, it will only be displayed once.
 
 <!-- div:right-panel -->
 ![selectlanguage](../_media/Screenshot_selectlanguage.png)
