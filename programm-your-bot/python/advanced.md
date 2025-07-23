@@ -371,3 +371,6 @@ bot.run(os.getenv("TOKEN"))
 # This will start the Bot
 ```
 
+## Final
+
+- If you need more information about ezcord, go to the [ezcord Documentation](https://ezcord.readthedocs.io).
