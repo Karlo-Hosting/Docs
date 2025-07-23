@@ -88,4 +88,5 @@ rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
 
 ## Final
 
-- Upload the files to the Karlo-Hosting Panel ans start the Server.
+- Upload the files to your JavaScript Server on the [Karlo-Hosting Panel](https://panel.karlo-hosting.com) and start it.
+- If you need more information, go to the [discord.js Guide](https://discordjs.guide) and the [discord.js Documentation](https://discord.js.org/docs/).
