@@ -2,7 +2,8 @@ window.$docsify = {
     catchPluginErrors: true,
     name: 'Karloline-Hosting Documentation',
     repo: 'https://github.com/Karlo-Hosting/Docs/',
-    routerMode: 'history',
+    // causes routing issues
+    // routerMode: 'history',
     auto2top: true,
     loadSidebar: true,
     logo: './_media/logo.png', // gets converted with css for dark mode
@@ -11,7 +12,7 @@ window.$docsify = {
         '/.*/_sidebar.md': '/_sidebar.md',
         '/.*/_navbar.md': '/_navbar.md',
     },
-    nameLink: '/',
+    nameLink: '#/',
     toc: {
         tocMaxLevel: 3,
         target: 'h2, h3, h4, h5, h6',
